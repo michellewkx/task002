@@ -57,6 +57,7 @@ function trim (str) {
 	return str.replace(/^\s*/,'').replace(/\s*$/);
 }
 
+
 // 实现一个遍历数组的方法，针对数组中每一个元素执行fn函数，并将数组索引和元素作为参数传递
 // 其中fn函数可以接受两个参数：item和index
 function each(arr, fn) {
